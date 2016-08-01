@@ -1,0 +1,10 @@
+machine:
+        timezone:
+            Asia/Kolkata
+        php:
+            version: 7.0.4
+            
+test:
+    override:
+        - php ./index.php
+        
